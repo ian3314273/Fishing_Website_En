@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>登入您的 Microsoft 帳戶</title>
+    <link rel="icon" href="images/Microsoft.ico">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/script.js"></script>
+</head>
+<body>
+<div class="light-box">
+    <div class="Logo">
+        <img src="images/microsoft_logo.svg">
+    </div>
+    <div class="Login-Font">
+        登入
+    </div>
+    <div class="input-container">
+        <input type="email" placeholder="電子郵件、電話或 Skype">
+    </div>
+    <div class="none-account">
+            <span>
+                沒有帳戶嗎?
+            </span>
+        <span class="create-account" role="button">
+                <a href="https://signup.live.com/signup?id=74335&contextid=8668765C7293AB11&opid=B807B799ED6BB964&bk=1715082944&sru=https://login.live.com/login.srf%3fid%3d74335%26id%3d74335%26contextid%3d8668765C7293AB11%26opid%3dB807B799ED6BB964%26mkt%3dZH-TW%26lc%3d1028%26bk%3d1715082944%26uaid%3d640e934406c54ff9a4594452e094a0f4&uiflavor=web&lic=1&mkt=ZH-TW&lc=1028&uaid=640e934406c54ff9a4594452e094a0f4">建立一個帳戶!</a>
+            </span>
+    </div>
+    <div>
+        <button class="next">
+            <!--跳轉到pw.html-->
+            <a href="pw.html">
+                <span>下一個</span>
+            </a>
+        </button>
+    </div>
+</div>
+<div class="login-option" onclick="to_loginoption()">
+    <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=151&ct=1715082810&rver=7.3.6960.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2frpsauth%2fv1%2faccount%2fSignInCallback%3fstate%3deyJSdSI6Imh0dHBzOi8vd3d3Lm1pY3Jvc29mdC5jb20vemgtdHciLCJMYyI6IjEwMjgiLCJIb3N0Ijoid3d3Lm1pY3Jvc29mdC5jb20ifQ&lc=1028&id=74335&aadredir=0"></a>
+    <img src="images/signin_options.svg">
+    <span>登入選項</span>
+</div>
+<div class="bottom-text">
+    <span onclick="to_service()">使用條例</span>
+    <span onclick="to_privacy()">隱私權與 Cookie</span>
+    <span>...</span>
+</div>
+</body>
+</html>

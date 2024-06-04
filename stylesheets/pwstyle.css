@@ -1,0 +1,91 @@
+body{
+    font-family: "Segoe UI", -apple-system, "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url("../images/Microsoft_Back.svg");
+}
+.light-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    height: 298px;
+    width: 400px;
+}
+.login-option {
+    margin: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding-left: 44px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 36px;
+    width: 436px;
+    cursor: pointer;
+}
+.login-option img{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+.Login-Font {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.input-container input[type="email"]{
+    font-size: inherit;
+    font-family: inherit;
+    border:none;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    width: 90%;
+    padding: 5px;
+}
+.none-account {
+    margin-top: 15px;
+    font-size: 13px;
+}
+.Login {
+    font-size: 17px;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(0, 93, 166);
+    padding:4px 12px;
+    min-width: 108px;
+    min-height: 32px;
+}
+.Login span{
+    color: white;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+}
+.bottom-text span{
+    font-size: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.forget-password {
+    margin-top: 15px;
+    font-size: 13px;
+}
+#backbutton {
+    margin-top: 5px;
+    background: transparent;
+    border-width: 0px;
+    cursor: pointer;
+}
